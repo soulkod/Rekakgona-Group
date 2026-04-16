@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plastic Pallets</title>
+    <link rel="icon" type="images/png" href="images/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="pallet-body">
+        <div class="contacts-section bg-dark d-flex justify-content-between ">
+            <div class="ms-3"><a class="contact-num  nav-link active"
+                    href="mailto:sales@rekakgonagroup.co.za">sales@rekakgonagroup.co.za</a></div>
+            <div class="contact-num d-flex">
+                <a class="nav-link active" href="tel:+27685303547">+27 (0) 685303547 /</a>
+                <a class="nav-link active" href="tel:+27123642413"> +27 (0) 123642413</a>
+            </div>
+            <div class="social-icons text-white me-3">
+                <ul class="list-unstyled d-flex pb-0">
+                    <li class="list-item ">
+                        <a class="nav-link active"
+                            href="https://www.instagram.com/rekakgonagroup?igsh=bmtodXdnOGNubHRj&utm_source=qr">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="display:block;" width="16" height="16"
+                                fill="#FCB300" class="bi bi-instagram hide-on-small" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-item ms-2">
+                        <a class="nav-link active" href="https://x.com/rekakgonagroup?s=11">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="display:block;" width="16" height="16"
+                                fill="#FCB300" class="bi bi-twitter-x hide-on-small" viewBox="0 0 16 16">
+                                <path
+                                    d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-item ms-2">
+                        <a class="nav-link active" href="https://www.facebook.com/share/1GKu11StbE/?mibextid=wwXIfr">
+                            <svg xmlns="http://www.w3.org/2000/svg" style="display:block;" width="16" height="16"
+                                fill="#FCB300" class="bi bi-facebook hide-on-small" viewBox="0 0 16 16">
+                                <path
+                                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="navbar nav-collapse shadow-lg">
+            <div class="container-fluid">
+                <img class="navbar-brand ms-2" src="images/logo-rmv.png" alt="logo" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <svg width="35px" height="45px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 18L20 18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+                        <path d="M4 12L20 12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+                        <path d="M4 6L20 6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </button>
+                <div class="offcanvas offcanvas-end back-nav" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <img class="navbar-brand ms-2" src="images/logo-rmv.png" alt="logo" />
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body back-nav">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fancy-underline me-4" aria-current="page"
+                                    href="/index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fancy-underline me-4" href="/about.html">ABOUT
+                                    US</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active text-white me-4" role="button"
+                                    data-bs-toggle="dropdown" aria-expand="false">
+                                    PRODUCTS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-white" href="/industrial-spares.html">INDUSTRIAL
+                                            SPARE PARTS</a></li>
+                                    <li class="dropdown-item dropend">
+                                        <a class="nav-link dropdown-toggle active text-white me-4" role="button"
+                                            data-bs-toggle="dropdown" aria-expand="false">
+                                            INDUSTRIAL PALLETS <br>AND BINS
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item text-white" href="/plastic-pallets.html">PLASTIC
+                                                    PALLETS</a></li>
+                                            <li><a class="dropdown-item text-white" href="/plastic-bins.html">PLASTIC
+                                                    BINS</a></li>
+                                            <li><a class="dropdown-item text-white" href="/core-trays.html">CORE
+                                                    TRAYS</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fancy-underline me-4"
+                                    href="/industries.html">INDUSTRIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-white fancy-underline me-4" href="/contact.html">CONTACT
+                                    US</a>
+                            </li>
+                            <ul class="list-unstyled d-flex pb-0">
+                                <li class="list-item ">
+                                    <a class="nav-link active"
+                                        href="https://www.instagram.com/rekakgonagroup?igsh=bmtodXdnOGNubHRj&utm_source=qr">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="display:block;" width="20"
+                                            height="20" fill="WHITE" class="bi bi-instagram hide-on-small"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-item ms-2">
+                                    <a class="nav-link active" href="https://x.com/rekakgonagroup?s=11">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="display:block;" width="20"
+                                            height="20" fill="WHITE" class="bi bi-twitter-x hide-on-small"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-item ms-2">
+                                    <a class="nav-link active"
+                                        href="https://www.facebook.com/share/1GKu11StbE/?mibextid=wwXIfr">
+                                        <svg xmlns="http://www.w3.org/2000/svg" style="display:block;" width="20"
+                                            height="20" fill="WHITE" class="bi bi-facebook hide-on-small"
+                                            viewBox="0 0 16 16">
+                                            <path
+                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg shadow-lg nav-main">
+            <div class="container-fluid">
+                <img class="navbar-brand ms-2" src="images/logo-rmv.png" alt="logo" />
+                <button class="navbar-toggler border-0 bg-transparent p-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <svg width="35px" height="45px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 18L20 18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+                        <path d="M4 12L20 12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+                        <path d="M4 6L20 6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </button>
+
+                <div class="collapse navbar-collapse ls-5" id="navbarNav">
+                    <ul class="navbar-nav ms-auto justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fancy-underline me-4" aria-current="page"
+                                href="/index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fancy-underline me-4" href="/about.html">ABOUT US</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active text-white me-4" role="button"
+                                data-bs-toggle="dropdown" aria-expand="false">
+                                PRODUCTS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-white" href="/industrial-spares.html">INDUSTRIAL SPARE
+                                        PARTS</a>
+                                </li>
+                                <li class=" nav-link dropdown dropend">
+                                    <a class="nav-link dropdown-toggle active text-white" role="button"
+                                        data-bs-toggle="dropdown" aria-expand="false">
+                                        INDUSTRIAL PALLETS <br>AND BINS
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-white" href="/plastic-pallets.html">PLASTIC
+                                                PALLETS</a></li>
+                                        <li><a class="dropdown-item text-white" href="/plastic-bins.html">PLASTIC
+                                                BINS</a>
+                                        </li>
+                                        <li><a class="dropdown-item text-white" href="/core-trays.html">CORE TRAYS</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fancy-underline me-4"
+                                href="/industries.html">INDUSTRIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fancy-underline me-4" href="/contact.html">CONTACT
+                                US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="ex2 d-flex align-items-center core-trays-head" style="height: 60%;">
+            <div class="container d-flex flex-column align-items-center">
+                <h1 class="text-white pt-0"><b>PLASTIC PALLETS</b></h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-5 mt-5">
+        <div class="row  align-items-center justify-content-center p-0 m-0">
+            <div class="col-12 col-md-7 mb-3 pt-3 text-center image-6-runner-container">
+            </div>
+        </div>
+        <div class="mb-5">
+            <div class="row  align-items-center justify-content-center p-0 m-0">
+
+                <!--work Thumbnail <img src="images/thumb.jpg" alt="Click to view larger" class=""
+                        data-full="images/fullsize.jpg">-->
+                <div class="col-12 col-md-12 mb-3 pt-3 clickable-img text-center image-One-time-Injection me-2 ms-2">
+                </div>
+                <div id="imageModal" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="close">&times;</span>
+                        <div id="modalImage" class="modal-content image-One-time-Injection-preview" alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-12 mb-3 pt-3 clickable-img-Recktable-1 text-center image-Rackable-1 me-2 ms-2">
+                </div>
+                <div id="imageModalRecktable" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="closeR">&times;</span>
+                        <div id="modalRecktable" class="modal-content image-Rackable-1-preview" alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+<!--working on-->
+                <div class="col-12 col-md-12 mb-3 pt-3 clickable-img-assembled text-center image-Assembled me-2 ms-2">
+                </div>
+                <div id="ImgModalAssembled" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="closeBtnAssembled">&times;</span>
+                        <div id="modalAssembled" class="modal-content image-Assembled-preview" alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 mb-3 pt-3 clickable-img-welded text-center image-Welded me-2 ms-2">
+                </div>
+                <div id="imageModalWelded" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="closeWilded">&times;</span>
+                        <div id="modalWeldedImage" class="modal-content image-welded-preview" alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-5">
+        <div class="row  align-items-center justify-content-center p-0 m-0">
+            <div class="col-12 col-md-7 mb-3 pt-3 text-center image-3-Runners">
+            </div>
+        </div>
+        <div class="mb-5">
+            <div class="row  align-items-center justify-content-center p-0 m-0">
+                <div
+                    class="col-12 col-md-12 mb-3 pt-3 clickable-img-3-runners-assembled text-center image-3-Runners-Assembled me-2 ms-2">
+                </div>
+                <div id="imageModal3RunnerAssemled" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="close3RunnerAssemled">&times;</span>
+                        <div id="modal3RunnerAssembled" class="modal-content image-3-runner-assembled-preview"
+                            alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-12 mb-3 pt-3 text-center clickable-img-3-runners-one-time image-3-Runners-One-Time-Injection me-2 ms-2">
+                </div>
+                <div id="imageModalOneTime" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="close3RunnerOneTime">&times;</span>
+                        <div id="modalOneTime" class="modal-content image-3-runner-one-time-preview" alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-12 mb-3 pt-3 text-center clickable-img-3-runners-injection image-3-Runners-One-Time-Injection-2 me-2 ms-2">
+                </div>
+                <div id="imageModalInjection" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="close3RunnerInjection">&times;</span>
+                        <div id="modalInjection" class="modal-content image-3-runner-injection-preview" alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-12 mb-3 pt-3 clickable-img-3-runners-welded text-center image-3-Runners-Welded-1 me-2 ms-2">
+                </div>
+                <div id="imageModal3RunnerWelded" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="close3RunnerWilded">&times;</span>
+                        <div id="modal3RunnerWelded" class="modal-content image-3-runner-welded-preview"
+                            alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-5">
+        <div class="row  align-items-center justify-content-center p-0 m-0">
+            <div class="col-12 col-md-7 mb-3 text-center image-9-Runners">
+            </div>
+            
+        </div>
+        <div class="mb-5">
+            <div class="row  align-items-center justify-content-center p-0 m-0">
+                
+                <div class="col-12 col-md-12 mb-3 pt-3 clickable-img-9-runners-legs text-center image-9-legs-one-time-injection me-2 ms-2">
+                </div>
+                <div id="imageModal9Runnerlegs" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="close9Runnerlegs">&times;</span>
+                        <div id="modal9Runnerlegs" class="modal-content image-9-runner-legs-preview"
+                            alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-5">
+        <div class="row  align-items-center justify-content-center p-0 m-0">
+            <div class="col-12 col-md-7 mb-3 pt-3 text-center image-Reversable-768x280">
+            </div>
+        </div>
+        <div class="mb-5">
+            <div class="row  align-items-center justify-content-center p-0 m-0">
+                
+                <div class="col-12 col-md-12 mb-3 pt-3 clickable-Reversable-one-time text-center image-Reversable-One-time-injection me-2 ms-2">
+                </div>
+                <div id="imageReversableOneTime" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="closeReversableonetime">&times;</span>
+                        <div id="modalReversableOneTime" class="modal-content image-Reversable-one-time-preview"
+                            alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 mb-3 pt-3 text-center clickable-Reversable-one-time-injection-2 image-Reversable-One-time-injection-2 me-2 ms-2">
+                </div>
+                <div id="imageModalReversableonetimeinjection2" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="closeReversableonetimeinjection2">&times;</span>
+                        <div id="modalReversableonetimeinjection2" class="modal-content image-Reversable-one-time-injection-2-preview"
+                            alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 mb-3 pt-3 text-center clickable-Reversable-welded image-Reversable-Welded me-2 ms-2">
+                </div>
+                <div id="imageReversablewelded" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="closeReversablewelded">&times;</span>
+                        <div id="modalReversablewelded" class="modal-content image-Reversable-Welded-preview"
+                            alt="Full view">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 mb-3 pt-3 text-center clickable-Reversable-welded2 image-Reversable-Welded-2 me-2 ms-2">
+                </div>
+                <div id="imageModalReversablewelded2" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="closeReversablewelded2">&times;</span>
+                        <div id="modalReversablewelded2" class="modal-content Reversable-welded2-preview">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-5">
+        <div class="row  align-items-center justify-content-center p-0 m-0">
+            <div class="col-12 col-md-7 mb-3 pt-3 text-center image-Export-One-Time-Use-768x282">
+            </div>
+        </div>
+        <div class="mb-5">
+            <div class="row  align-items-center justify-content-center p-0 m-0">
+                <div class="col-12 col-md-12 mb-3 pt-3 text-center clickable-Export-One-time-Use-1 image-Export-One-time-Use-1 me-2 ms-2">
+                </div>
+                <div id="imageExportOnetimeUse1" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="closeExportOnetimeUse1">&times;</span>
+                        <div id="modalExportOnetimeUse1" class="modal-content Export-One-time-Use-1-preview">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-5">
+        <div class="row  align-items-center justify-content-center p-0 m-0">
+            <div class="col-12 col-md-7 mb-3 pt-3 text-center image-Nestable-Pallets-768x282">
+            </div>
+        </div>
+        <div class="mb-5">
+            <div class="row  align-items-center justify-content-center p-0 m-0">
+                <div class="col-12 col-md-12 mb-3 pt-3 text-center clickable-Nestable-Pallets-1 image-Nestable-Pallets-1 me-2 ms-2">
+                </div>
+                <div id="imageNestablePallets1" class="modal">
+                    <div class="modal-content-wrapper">
+                        <span class="closeNestablePallets1">&times;</span>
+                        <div id="modalNestablePallets1" class="modal-content Nestable-Pallets-1-preview">
+                        </div>
+                        <p class="caption"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <footer class="">
+        <div class=" footer-section text-white py-md-5 pt-1 pb-3">
+            <div class="row footer-style m-0 pt-3 pb-3 align-items-center">
+                <div class="col-12 col-md-3  mb-3 text-center">
+                    <img class="footer-image ms-md-3" src="images/logo-rmv.png" alt="logo" />
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <b>ADDRESS</b><br>
+                    Equity Park, Building A,<br>
+                    1st Floor, 257 Brooklyn Road, <br>
+                    Brooklyn, Pretoria, South Africa, 0081<br>
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <b>CONTACT US</b><br>
+                    Tel: +27 (0) 12 364 2413<br>
+                    Email: sales@rekakgonagroup.co.za<br>
+                    www.rekakgonagroup.co.za<br>
+                </div>
+                <div class="col-12 col-md-3 mb-3">
+                    <b>WORKING HOURS</b><br>
+                    Monday – Friday: 8h00 to 17h00<br>
+                    Saturday: Closed<br>
+                    Sunday: Closed<br>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center bg-black pt-2 pb-2">
+            <div class="policy-section d-flex align-items-center mb-0 text-white">&copy; 2025 Rekakgona Group (PTY)
+                LTD.
+                EST
+                2016</div>
+        </div>
+    </footer>
+    <script>
+        //<!--working on-->
+        const caption = document.getElementById("caption");
+
+const imageModal3RunnerWelded = document.getElementById("imageModal3RunnerWelded");
+        const modal3RunnerWelded = document.getElementById("modal3RunnerWelded");
+        const close3RunnerWilded = document.querySelector(".close3RunnerWilded");
+        document.querySelectorAll(".clickable-img-3-runners-welded").forEach(img => {
+            img.addEventListener("click", function () {
+                imageModal3RunnerWelded.style.display = "flex";
+                modal3RunnerWelded.src = this.dataset.full;  // different image
+                caption.textContent = "Welded";
+            });
+        });
+
+        close3RunnerWilded.onclick = () => imageModal3RunnerWelded.style.display = "none";
+
+        imageModal3RunnerWelded.onclick = (event) => {
+            if (event.target === imageModal3RunnerWelded) {
+                imageModal3RunnerWelded.style.display = "none";
+            }
+        };
+
+        const imageModalOneTime = document.getElementById("imageModalOneTime");
+        const modalOneTime = document.getElementById("modalOneTime");
+        const close3RunnerOneTime = document.querySelector(".close3RunnerOneTime");
+        document.querySelectorAll(".clickable-img-3-runners-one-time").forEach(img => {
+            img.addEventListener("click", function () {
+                imageModalOneTime.style.display = "flex";
+                modalOneTime.src = this.dataset.full;  // different image
+                caption.textContent = "One Time ";
+            });
+        });
+
+        close3RunnerOneTime.onclick = () => imageModalOneTime.style.display = "none";
+
+        imageModalOneTime.onclick = (event) => {
+            if (event.target === imageModalOneTime) {
+                imageModalOneTime.style.display = "none";
+            }
+        };
+
+        const imageModal3RunnerAssemled = document.getElementById("imageModal3RunnerAssemled");
+        const modal3RunnerAssembled = document.getElementById("modal3RunnerAssembled");
+        const close3RunnerAssemled = document.querySelector(".close3RunnerAssemled");
+        document.querySelectorAll(".clickable-img-3-runners-assembled").forEach(img => {
+            img.addEventListener("click", function () {
+                imageModal3RunnerAssemled.style.display = "flex";
+                modal3RunnerAssembled.src = this.dataset.full;  // different image
+                caption.textContent = "Assembled";
+            });
+        });
+
+        close3RunnerAssemled.onclick = () => imageModal3RunnerAssemled.style.display = "none";
+
+        imageModal3RunnerAssemled.onclick = (event) => {
+            if (event.target === imageModal3RunnerAssemled) {
+                imageModal3RunnerAssemled.style.display = "none";
+            }
+        };
+
+        const imageModalWelded = document.getElementById("imageModalWelded");
+        const modalWelded = document.getElementById("modalWelded");
+        const closeWilded = document.querySelector(".closeWilded");
+        document.querySelectorAll(".clickable-img-welded").forEach(img => {
+            img.addEventListener("click", function () {
+                imageModalWelded.style.display = "flex";
+                modalWelded.src = this.dataset.full;  // different image
+                caption.textContent = "Welded";
+            });
+        });
+
+        closeWilded.onclick = () => imageModalWelded.style.display = "none";
+
+        imageModalWelded.onclick = (event) => {
+            if (event.target === imageModalWelded) {
+                imageModalWelded.style.display = "none";
+            }
+        };
+
+        const ImgModalAssembled = document.getElementById("ImgModalAssembled");
+        const modalAssembled = document.getElementById("modalAssembled");
+        const closeBtnAssembled = document.querySelector(".closeBtnAssembled");
+        document.querySelectorAll(".clickable-img-assembled").forEach(img => {
+            img.addEventListener("click", function () {
+                ImgModalAssembled.style.display = "flex";
+                modalAssembled.src = this.dataset.full;  // different image
+                caption.textContent = "Assembled";
+            });
+        });
+
+        closeBtnAssembled.onclick = () => ImgModalAssembled.style.display = "none";
+
+        ImgModalAssembled.onclick = (event) => {
+            if (event.target === ImgModalAssembled) {
+               ImgModalAssembled.style.display = "none";
+            }
+        };
+
+
+        const modalImgRecktable = document.getElementById("imageModalRecktable");
+        const modalRecktable = document.getElementById("modalRecktable");
+        const closeBtnR = document.querySelector(".closeR");
+        document.querySelectorAll(".clickable-img-Recktable-1").forEach(img => {
+            img.addEventListener("click", function () {
+                modalImgRecktable.style.display = "flex";
+                modalRecktable.src = this.dataset.full;  // different image
+                caption.textContent = "Recktable";
+            });
+        });
+
+        closeBtnR.onclick = () => modalImgRecktable.style.display = "none";
+
+        modalImgRecktable.onclick = (event) => {
+            if (event.target === modalImgRecktable) {
+               modalImgRecktable.style.display = "none";
+            }
+        };
+
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImage");
+        
+        const closeBtn = document.querySelector(".close");
+
+        document.querySelectorAll(".clickable-img").forEach(img => {
+            img.addEventListener("click", function () {
+                modal.style.display = "flex";
+                modalImg.src = this.dataset.full;  // different image
+                caption.textContent = "Ground Use";
+            });
+        });
+        // Close modal on X click
+        closeBtn.onclick = () => modal.style.display = "none";
+
+        modal.onclick = (event) => {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+
+        const imageModalInjection = document.getElementById("imageModalInjection");
+        const modalInjection = document.getElementById("modalInjection");
+        const close3RunnerInjection = document.querySelector(".close3RunnerInjection");
+        document.querySelectorAll(".clickable-img-3-runners-injection").forEach(img => {
+            img.addEventListener("click", function () {
+                imageModalInjection.style.display = "flex";
+                modalInjection.src = this.dataset.full;  // different image
+                //caption.textContent = "Full view of " + this.alt;
+            });
+        });
+
+        close3RunnerInjection.onclick = () => imageModalInjection.style.display = "none";
+
+        imageModalInjection.onclick = (event) => {
+            if (event.target === imageModalInjection) {
+                imageModalInjection.style.display = "none";
+            }
+        };
+        
+        const imageModal9Runnerlegs = document.getElementById("imageModal9Runnerlegs");
+        const modal9Runnerlegs = document.getElementById("modal9Runnerlegs");
+        const close9Runnerlegs = document.querySelector(".close9Runnerlegs");
+        document.querySelectorAll(".clickable-img-9-runners-legs").forEach(img => {
+            img.addEventListener("click", function () {
+                imageModal9Runnerlegs.style.display = "flex";
+                modal9Runnerlegs.src = this.dataset.full;  // different image
+                caption.textContent = "Full view of " + this.alt;
+            });
+        });
+        close9Runnerlegs.onclick = () => imageModal9Runnerlegs.style.display = "none";
+        imageModal9Runnerlegs.onclick = (event) => {
+            if (event.target === imageModal9Runnerlegs) {
+                imageModal9Runnerlegs.style.display = "none";
+            }
+        };
+        
+        const imageReversableOneTime = document.getElementById("imageModalReversableonetimeinjection2");
+        const modalReversableOneTime = document.getElementById("modalReversableOneTime");
+        const closeReversableonetime = document.querySelector(".closeReversableonetime");
+        document.querySelectorAll(".clickable-Reversable-one-time").forEach(img => {
+            img.addEventListener("click", function () {
+                imageReversableOneTime.style.display = "flex";
+                modalReversableOneTime.src = this.dataset.full;  // different image
+                caption.textContent = "Full view of " + this.alt;
+            });
+        });
+        closeReversableonetime.onclick = () => imageReversableOneTime.style.display = "none";
+        imageReversableOneTime.onclick = (event) => {
+            if (event.target === imageReversableOneTime) {
+                imageReversableOneTime.style.display = "none";
+            }
+        };
+
+        const imageModalReversableonetimeinjection2 = document.getElementById("imageModalReversableonetimeinjection2");
+        const modalReversableonetimeinjection2 = document.getElementById("modalReversableonetimeinjection2");
+        const closeReversableonetimeinjection2 = document.querySelector(".closeReversableonetimeinjection2");
+        document.querySelectorAll(".clickable-Reversable-one-time-injection-2").forEach(img => {
+            img.addEventListener("click", function () {
+                imageModalReversableonetimeinjection2.style.display = "flex";
+                modalReversableonetimeinjection2.src = this.dataset.full;  // different image
+                caption.textContent = "Full view of " + this.alt;
+            });
+        });
+        closeReversableonetimeinjection2.onclick = () => imageModalReversableonetimeinjection2.style.display = "none";
+        imageModalReversableonetimeinjection2.onclick = (event) => {
+            if (event.target === imageModalReversableonetimeinjection2) {
+                imageModalReversableonetimeinjection2.style.display = "none";
+            }
+        };
+
+        const imageReversablewelded = document.getElementById("imageReversablewelded");
+        const modalReversablewelded = document.getElementById("modalReversablewelded");
+        const closeReversablewelded = document.querySelector(".closeReversablewelded");
+        document.querySelectorAll(".clickable-Reversable-welded").forEach(img => {
+            img.addEventListener("click", function () {
+                imageReversablewelded.style.display = "flex";
+                modalReversablewelded.src = this.dataset.full;  // different image
+                caption.textContent = "Full view of " + this.alt;
+            });
+        });
+        closeReversablewelded.onclick = () => imageReversablewelded.style.display = "none";
+        imageReversablewelded.onclick = (event) => {
+            if (event.target === imageReversablewelded) {
+                imageReversablewelded.style.display = "none";
+            }
+        };
+
+        const imageModalReversablewelded2 = document.getElementById("imageModalReversablewelded2");
+        const modalReversablewelded2 = document.getElementById("modalNestablePallets1");
+        const closeReversablewelded2 = document.querySelector(".closeReversablewelded2");
+        document.querySelectorAll(".clickable-Reversable-welded2").forEach(img => {
+            img.addEventListener("click", function () {
+                imageModalReversablewelded2.style.display = "flex";
+                modalReversablewelded2.src = this.dataset.full;  // different image
+                caption.textContent = "Full view of " + this.alt;
+            });
+        });
+        closeReversablewelded2.onclick = () => imageModalReversablewelded2.style.display = "none";
+        imageModalReversablewelded2.onclick = (event) => {
+            if (event.target === imageModalReversablewelded2) {
+                imageModalReversablewelded2.style.display = "none";
+            }
+        };
+
+        const imageNestablePallets1 = document.getElementById("imageNestablePallets1");
+        const modalNestablePallets1 = document.getElementById("modalNestablePallets1");
+        const closeNestablePallets1 = document.querySelector(".closeNestablePallets1");
+        document.querySelectorAll(".clickable-Nestable-Pallets-1").forEach(img => {
+            img.addEventListener("click", function () {
+                imageNestablePallets1.style.display = "flex";
+                modalNestablePallets1.src = this.dataset.full;  // different image
+                caption.textContent = "Full view of " + this.alt;
+            });
+        });
+        closeNestablePallets1.onclick = () => imageNestablePallets1.style.display = "none";
+        imageNestablePallets1.onclick = (event) => {
+            if (event.target === imageNestablePallets1) {
+                imageNestablePallets1.style.display = "none";
+            }
+        };
+
+        const imageExportOnetimeUse1 = document.getElementById("imageExportOnetimeUse1");
+        const modalExportOnetimeUse1 = document.getElementById("modalExportOnetimeUse1");
+        const closeExportOnetimeUse1 = document.querySelector(".closeExportOnetimeUse1");
+        document.querySelectorAll(".clickable-Export-One-time-Use-1").forEach(img => {
+            img.addEventListener("click", function () {
+                imageExportOnetimeUse1.style.display = "flex";
+                modalExportOnetimeUse1.src = this.dataset.full;  // different image
+                caption.textContent = "Full view of " + this.alt;
+            });
+        });
+        closeExportOnetimeUse1.onclick = () => imageExportOnetimeUse1.style.display = "none";
+        imageExportOnetimeUse1.onclick = (event) => {
+            if (event.target === imageExportOnetimeUse1) {
+                imageExportOnetimeUse1.style.display = "none";
+            }
+        };
+
+        const imageModal9Runner = document.getElementById("imageModal9Runner");
+        const modal9Runner = document.getElementById("modal9Runner");
+        const close9Runner = document.querySelector(".close9Runner");
+        document.querySelectorAll(".clickable-img-3-runners-welded").forEach(img => {
+            img.addEventListener("click", function () {
+                imageModal9Runner.style.display = "flex";
+                modal9Runner.src = this.dataset.full;  // different image
+                caption.textContent = "Full view of " + this.alt;
+            });
+        });
+
+        close9Runner.onclick = () => imageModal9Runner.style.display = "none";
+
+        imageModal9Runner.onclick = (event) => {
+            if (event.target === imageModal9Runner) {
+                imageModal9Runner.style.display = "none";
+            }
+        };
+
+        
+
+        
+
+        
+
+        
+        
+            //work
+        
+
+        
+
+        
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/autotyping@1.2.6/dist/AutoTyping.min.js"></script>
+    <script src="javascript/interact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

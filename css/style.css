@@ -1,0 +1,1861 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.title-nav-screen {
+  height: 19vh;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .title-nav-screen {
+    height: 28vh;
+  }
+
+  .footer-style{
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .nav-main,
+  .contacts-section,
+  #picture-section {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+  }
+
+  
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    width: 110px;
+    height: 70px;
+  }
+
+  .map-styling {
+    width: 80%;
+    height: 350px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-brand {
+    width: 90px;
+    height: 70px;
+  }
+
+  .Guidant-Measurements {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/products/Guidant/MPU\ lab.png') center/cover no-repeat;
+    height: 30vh;
+    color: white;
+  }
+
+  .O-Ring-Pusher-back{
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/O-Ring-Pusher-img/pusher-background.png') center/cover no-repeat;
+    height: 30vh;
+    color: white;
+  }
+
+  .BOILER-FEED-PUMP-SEAL-back{
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/BOILER-FEED-PUMP-SEAL-img/boiler-feed-background') center/cover no-repeat;
+    height: 30vh;
+    color: white;
+  }
+
+  .map-styling {
+    width: 80%;
+    height: 200px;
+  }
+
+  .navbar {
+    background-color: transparent;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  .contacts-section,
+  .contacts-section-about {
+    width: 0px;
+    height: 0px;
+  }
+
+  .social-icons li a {
+    display: none;
+  }
+
+  .nav-main {
+    display: none;
+  }
+
+  .nav-about {
+    display: none;
+  }
+
+  .nav-about .nav-collapse {
+    background-color: transparent;
+
+  }
+
+  .back-nav {
+    background-color: #f5a623;
+  }
+
+  .contact-num {
+    color: transparent;
+  }
+}
+
+@media (min-width: 800px) {
+  .contacts-section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
+  }
+
+  .navbar {
+    background-color: #FCB300;
+  }
+
+  .nav-collapse {
+    display: none;
+
+  }
+
+  .contact-num {
+    color: white;
+  }
+}
+
+
+.picture-section {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/black-engineers.jpg') center/cover no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.contact-us-body {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url('../images/contact-us-header.jpg') center/cover no-repeat;
+  height: 50vh;
+  color: white;
+}
+
+.industrial-body {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/industrial.jpg') center/cover no-repeat;
+  height: 40vh;
+  color: white;
+}
+
+.Guidant-Measurements {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/products/Guidant/MPU\ lab.png') center/cover no-repeat;
+  height: 40vh;
+  color: white;
+}
+.O-Ring-Pusher-back{
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/O-Ring-Pusher-img/pusher-background.png') center/cover no-repeat;
+    height: 40vh;
+    color: white;
+  }
+
+  .BOILER-FEED-PUMP-SEAL-back{
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/BOILER-FEED-PUMP-SEAL-img/boiler-feed-background.jpg') center/cover no-repeat;
+    height: 40vh;
+    color: white;
+  }
+
+.Differential-Pressure-Temperature-Sensors {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/products/steel-pipelines-cables-plant.jpg') center/cover no-repeat;
+  height: 40vh;
+  color: white;
+}
+
+.vibration-conditioning-background {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/products/vibratiob-background.jpg') center/cover no-repeat;
+  height: 40vh;
+  color: white;
+}
+
+.Level-Measurement-Control {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/products/construction-plans-with-helmet-drawing-tools-blueprints.jpg') center/cover no-repeat;
+  height: 40vh;
+  color: white;
+}
+
+#experience-section {
+  border-radius: 30px;
+  border-style: solid;
+}
+
+#example {
+  color: blanchedalmond;
+}
+
+.tech {
+  cursor: default;
+}
+
+
+
+@media (max-width: 992px) {
+  .text1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .text1 {
+    font-size: 70px;
+  }
+
+  .contact-us-row {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+}
+
+.fancy-underline {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+
+.fancy-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(253, 252, 252);
+  transition: width 0.3s ease;
+}
+
+.fancy-underline:hover::after {
+  width: 100%;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: none;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+  display: block;
+  margin-top: 0;
+  margin-left: .125em;
+  background-color: #FCB300;
+}
+
+.dropdown-menu .dropdown-item:focus,
+.dropdown-menu .dropdown-item:hover {
+  background-color: #FCB300 !important;
+  color: black !important;
+}
+
+/*for smaller screens*/
+@media screen and (min-width:769px) {
+  .dropend:hover>.dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+
+  }
+}
+
+@media (min-width: 767px) {
+  .overlay-boxes {
+    position: absolute;
+    bottom: -220px;
+    /* moves boxes slightly below image */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+  }
+
+  .video-section {
+    margin-top: 220px;
+  }
+}
+
+@media (max-width: 767px) {
+  .overlay-boxes {
+    position: absolute;
+    bottom: -900px;
+    /* moves boxes slightly below image */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 900px;
+    padding: 0 15px;
+  }
+
+  .picture-section {
+    margin-bottom: 0px;
+  }
+
+  .video-section {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.seperator {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 414px) {
+  .overlay-boxes {
+    position: absolute;
+    bottom: -650px;
+    /* moves boxes slightly below image */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 900px;
+    padding: 0 15px;
+  }
+
+  .video-section {
+    margin-top: 630px;
+  }
+}
+
+.card-custom {
+  background: #f8b400;
+  /* yellow */
+  color: black;
+
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.card-spare-part {
+  width: 100px;
+  height: 100px;
+}
+
+.card-custom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-custom {
+  position: relative;
+  overflow: hidden;
+  border: none;
+}
+
+.card-custom img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.read-more {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: black;
+  color: white;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f5a623;
+  /* orange */
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: bold;
+}
+
+.middle-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f5a623;
+  /* orange */
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: bold;
+}
+
+.policy-section {
+  font-size: 11px;
+}
+
+.footer-section {
+  background: #f5a623;
+}
+
+.footer-image {
+  width: 180px;
+  height: 100px;
+}
+
+/*for index*/
+.parent-container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.top-div {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background-color: #f5a623;
+  left: 25px;
+  top: 30px;
+}
+
+.bottom-div {
+  position: absolute;
+  width: 300px;
+  height: 220px;
+  background-color: black;
+}
+
+/*for industry*/
+.industry-body {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/mining-picture.jpg') center/cover no-repeat;
+  height: 43vh;
+  color: white;
+}
+
+.industry-parent-container {
+  position: relative;
+  width: 50px;
+  height: 400px;
+
+}
+
+@media (max-width: 992px) {
+  .industry-parent-container {
+
+    left: -80px;
+  }
+}
+
+
+.industry-top-div {
+  position: absolute;
+  width: 210px;
+  height: 300px;
+  background: url("../images/electrical-bottom-new.jpg") center/cover no-repeat;
+  left: 120px;
+  top: 100px;
+  border: 5px solid #ffff;
+}
+
+.industry-bottom-div {
+  position: absolute;
+  width: 210px;
+  height: 300px;
+  background: url("../images/electrical-top.jpg") center/cover no-repeat;
+  border: 5px solid #f5a623;
+}
+
+.mechanical-parent-container {
+  position: relative;
+  width: 50px;
+  height: 400px;
+
+}
+
+@media (max-width: 992px) {
+  .mechanical-parent-container {
+    left: -80px;
+  }
+}
+
+.mechanical-top-div {
+  position: absolute;
+  width: 210px;
+  height: 300px;
+  background: url("../images/mechanical-top.jpg") center/cover no-repeat;
+  left: 120px;
+  top: 100px;
+  border: 5px solid #f5a623;
+}
+
+.mechanical-bottom-div {
+  position: absolute;
+  width: 210px;
+  height: 300px;
+  background: url("../images/mechanical-bottom.jpg") center/cover no-repeat;
+  border: 5px solid #ffff;
+}
+
+#example {
+  color: white;
+}
+
+.contents {
+  position: absolute;
+  top: 35px;
+  left: 25px;
+}
+
+.about-us-body {
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.about-image {
+  width: 300px;
+  height: 240px;
+}
+
+/*Contact line in between*/
+.line-vet {
+  padding: 0 20px;
+}
+
+.line-vet:not(:last-child) {
+  border-right: 2px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .line-vet:not(:last-child) {
+    border-right: none;
+  }
+}
+
+/*industry line*/
+.industry-line:not(:last-child) {
+  border-right: 3px solid #f5a623;
+}
+
+@media (max-width: 768px) {
+  .industry-line:not(:last-child) {
+    border-right: none;
+  }
+}
+
+.electrical-header {
+  border-left: 5px solid #f5a623;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.custom-list {
+  list-style: none;
+  padding-left: 40px;
+  top: 5px;
+
+}
+
+.custom-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.custom-list span {
+  font-size: 15px;
+}
+
+.image-container-1 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/lightbulb.png") center/cover no-repeat;
+}
+
+.image-container-2 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/circuit.png") center/cover no-repeat;
+}
+
+.image-container-3 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/power-supply.png") center/cover no-repeat;
+}
+
+.image-container-4 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/battery-terminals.png") center/cover no-repeat;
+}
+
+.image-container-5 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/cabling.png") center/cover no-repeat;
+}
+
+.image-container-6 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/relay.png") center/cover no-repeat;
+}
+
+.image-container-7 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/switch.png") center/cover no-repeat;
+}
+
+.mechanical-row {
+  background-color: #f5a623;
+}
+
+.mechanical-header {
+  border-left: 5px solid #ffff;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.image-mechenical-container-1 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/pump.png") center/cover no-repeat;
+}
+
+.image-mechenical-container-2 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/motor.png") center/cover no-repeat;
+}
+
+.image-mechenical-container-3 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/compressor.png") center/cover no-repeat;
+}
+
+.image-mechenical-container-4 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/car-engine.png") center/cover no-repeat;
+}
+
+.image-mechenical-container-5 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/fitting-engine.png") center/cover no-repeat;
+}
+
+.image-mechenical-container-6 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/filter.png") center/cover no-repeat;
+}
+
+.image-mechenical-container-7 {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background: url("../images/gate-valve.png") center/cover no-repeat;
+}
+
+/*Core tray*/
+.image-tray-container-BHNQ {
+  width: 390px;
+  height: 270px;
+  background: url("../images/trays/BHNPQ-PIC.jpg") center/cover no-repeat;
+}
+
+.image-tray-container-BQ {
+  width: 390px;
+  height: 270px;
+  background: url("../images/trays/Mining-Core-Tray-BQ.jpg") center/cover no-repeat;
+}
+
+.image-tray-container-NQ {
+  width: 390px;
+  height: 270px;
+  background: url("../images/trays/Mining-Core-Tray-NQ.jpg") center/cover no-repeat;
+}
+
+.image-tray-container-BHNQ-spec {
+  width: 460px;
+  height: 170px;
+  background: url("../images/trays/BHNPQ-SPECS.jpg") center/cover no-repeat;
+}
+
+@media (max-width: 992px) {
+  .image-tray-container-BHNQ {
+    width: 310px;
+    height: 190px;
+    background: url("../images/trays/BHNPQ-PIC.jpg") center/cover no-repeat;
+  }
+
+  .image-tray-container-BQ {
+    width: 310px;
+    height: 190px;
+    background: url("../images/trays/Mining-Core-Tray-BQ.jpg") center/cover no-repeat;
+  }
+
+  .image-tray-container-NQ {
+    width: 310px;
+    height: 190px;
+    background: url("../images/trays/Mining-Core-Tray-NQ.jpg") center/cover no-repeat;
+  }
+
+  .image-tray-container-BHNQ-spec {
+    width: 370px;
+    height: 111px;
+    background: url("../images/trays/BHNPQ-SPECS.jpg") center/cover no-repeat;
+  }
+
+  .core-tray-body {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/industrial.jpg') center/cover no-repeat;
+    height: 30vh;
+    color: white;
+  }
+
+  .pallet-body {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/pallets/pallet-2.jpeg') center/cover no-repeat;
+    height: 30vh;
+    color: white;
+  }
+
+  .core-trays-head {
+    height: 8vh;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .core-trays-head {
+    height: 70%;
+  }
+
+  .core-tray-body {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/industrial.jpg') center/cover no-repeat;
+    height: 40vh;
+    color: white;
+  }
+
+  .pallet-body {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/pallets/pallet.jpeg') center/cover no-repeat;
+    height: 40vh;
+    color: white;
+  }
+}
+
+
+.core-trays-head {
+  height: 22vh;
+  margin: 0;
+}
+
+.description-section {
+  margin-right: 10px;
+}
+
+/*Plastic bin*/
+@media (max-width: 992px) {
+
+  .image-bin-container-bin {
+    width: 190px;
+    height: 90px;
+    background: url("../images/bins/Plastic-Dustbins.jpg") no-repeat;
+  }
+
+  .image-bin-container-two-way-solid {
+    width: 310px;
+    height: 190px;
+    background: url("../images/bins/ShallowJumboBin–Solid-1.jpg") center/cover no-repeat;
+  }
+
+  .image-bin-container-two-way-vented {
+    width: 390px;
+    height: 270px;
+    background: url("../images/bins/ShallowJumboBin–Vented.jpg") center/cover no-repeat;
+  }
+
+  .image-bin-container-shallow-vented {
+    width: 310px;
+    height: 190px;
+    background: url("../images/bins/ShallowJumboBin–Vented.jpg") center/cover no-repeat;
+  }
+
+  .image-bin-container-shallow-solid {
+    width: 310px;
+    height: 190px;
+    background: url("../images/bins/ShallowJumboBin–Solid-1.jpg") center/cover no-repeat;
+  }
+
+  .image-bin-container-small-collapsible {
+    width: 310px;
+    height: 190px;
+    background: url("../images/bins/SmallCollapsiblePlasticPalletBin.jpg") center/cover no-repeat;
+  }
+
+  .image-bin-container-collapsible {
+    width: 310px;
+    height: 190px;
+    background: url("../images/bins/CollapsiblePlasticPalletBin.jpg") center/cover no-repeat;
+  }
+
+  .image-bin-container-vented {
+    width: 310px;
+    height: 190px;
+    background: url("../images/bins/VentedPlasticPalletBin.jpg") center/cover no-repeat;
+  }
+
+  .image-bin-container-solid {
+    width: 310px;
+    height: 190px;
+    background: url("../images/bins/SolidPlasticPalletBin.jpg") center/cover no-repeat;
+  }
+
+}
+
+
+.image-bin-container-bin {
+  width: 390px;
+  height: 270px;
+  background: url("../images/bins/Plastic-Dustbins.jpg") center/cover no-repeat;
+}
+
+.image-bin-container-two-way-solid {
+  width: 390px;
+  height: 270px;
+  background: url("../images/bins/ShallowJumboBin–Solid-1.jpg") center/cover no-repeat;
+}
+
+.image-bin-container-two-way-vented {
+  width: 390px;
+  height: 270px;
+  background: url("../images/bins/ShallowJumboBin–Vented.jpg") center/cover no-repeat;
+}
+
+.image-bin-container-shallow-vented {
+  width: 390px;
+  height: 270px;
+  background: url("../images/bins/ShallowJumboBin–Vented.jpg") center/cover no-repeat;
+}
+
+.image-bin-container-shallow-solid {
+  width: 390px;
+  height: 270px;
+  background: url("../images/bins/ShallowJumboBin–Solid-1.jpg") center/cover no-repeat;
+}
+
+.image-bin-container-small-collapsible {
+  width: 390px;
+  height: 270px;
+  background: url("../images/bins/SmallCollapsiblePlasticPalletBin.jpg") center/cover no-repeat;
+}
+
+.image-bin-container-collapsible {
+  width: 390px;
+  height: 270px;
+  background: url("../images/bins/CollapsiblePlasticPalletBin.jpg") center/cover no-repeat;
+}
+
+.image-bin-container-vented {
+  width: 390px;
+  height: 270px;
+  background: url("../images/bins/VentedPlasticPalletBin.jpg") center/cover no-repeat;
+}
+
+.image-bin-container-solid {
+  width: 390px;
+  height: 270px;
+  background: url("../images/bins/SolidPlasticPalletBin.jpg") center/cover no-repeat;
+}
+
+
+.industry-list-sec {
+  list-style: none;
+}
+
+/* Plastic Pallets */
+@media (max-width: 992px) {
+  .image-6-runner-container {
+    width: 350px;
+    height: 130px;
+    background: url("../images/pallets/6-runners/6-Runners-768x288.jpg") center/cover no-repeat;
+  }
+
+  .image-3-Runners {
+    width: 350px;
+    height: 130px;
+    background: url("../images/pallets/3-runners/3-Runners-768x288.jpg") center/cover no-repeat;
+  }
+
+  .image-9-Runners {
+    width: 350px;
+    height: 130px;
+    background: url("../images/pallets/9-runners/9-Legs-768x287.jpg") center/cover no-repeat;
+  }
+
+  .image-Reversable-768x280 {
+    width: 355px;
+    height: 129px;
+    background: url("../images/pallets/Reversable/Reversable-768x280.jpg") center/cover no-repeat;
+  }
+
+  .image-Export-One-Time-Use-768x282 {
+    width: 355px;
+    height: 129px;
+    background: url("../images/pallets/Export/Export-One-Time-Use-768x282.jpg") center/cover no-repeat;
+  }
+
+  .image-Nestable-Pallets-768x282 {
+    width: 355px;
+    height: 129px;
+    background: url("../images/pallets/Nested/Nestable-Pallets-768x282.jpg") center/cover no-repeat;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .image-6-runner-container {
+    width: 760px;
+    height: 283px;
+    background: url("../images/pallets/6-runners/6-Runners-768x288.jpg") center/cover no-repeat;
+  }
+
+  .image-3-Runners {
+    width: 760px;
+    height: 283px;
+    background: url("../images/pallets/3-runners/3-Runners-768x288.jpg") center/cover no-repeat;
+  }
+
+  .image-9-Runners {
+    width: 760px;
+    height: 283px;
+    background: url("../images/pallets/9-runners/9-Legs-768x287.jpg") center/cover no-repeat;
+  }
+
+  .image-Reversable-768x280 {
+    width: 760px;
+    height: 277px;
+    background: url("../images/pallets/Reversable/Reversable-768x280.jpg") center/cover no-repeat;
+  }
+
+  .image-Export-One-Time-Use-768x282 {
+    width: 760px;
+    height: 277px;
+    background: url("../images/pallets/Export/Export-One-Time-Use-768x282.jpg") center/cover no-repeat;
+  }
+
+  .image-Nestable-Pallets-768x282 {
+    width: 760px;
+    height: 277px;
+    background: url("../images/pallets/Nested/Nestable-Pallets-768x282.jpg") center/cover no-repeat;
+  }
+}
+
+/* first section*/
+.image-One-time-Injection {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/6-runners/One-time-Injection.jpg") center/cover no-repeat;
+}
+
+.image-Rackable-1 {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/6-runners/Rackable-1.jpg") center/cover no-repeat;
+}
+
+.image-Assembled {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/6-runners/Assembled.jpg") center/cover no-repeat;
+}
+
+.image-Welded {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/6-runners/Welded.jpg") center/cover no-repeat;
+}
+
+/* Second section*/
+.image-3-Runners-Assembled {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/3-runners/3-Runners-Assembled.jpg") center/cover no-repeat;
+}
+
+.image-3-Runners-One-Time-Injection {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/3-runners/3-Runners-One-Time-Injection.jpg") center/cover no-repeat;
+}
+
+.image-3-Runners-One-Time-Injection-2 {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/3-runners/3-Runners-One-Time-Injection-2.jpg") center/cover no-repeat;
+}
+
+.image-3-Runners-Welded-1 {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/3-runners/3-Runners-Welded-1.jpg") center/cover no-repeat;
+}
+
+/*for 9-runners*/
+.image-9-legs-one-time-injection {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/9-runners/9-legs-one-time-injection.jpg") center/cover no-repeat;
+}
+
+/*for reversable*/
+.image-Reversable-One-time-injection {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/Reversable/Reversable-One-time-injection.jpg") center/cover no-repeat;
+}
+
+.image-Reversable-One-time-injection-2 {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/Reversable/Reversable-One-time-injection-2.jpg") center/cover no-repeat;
+}
+
+.image-Reversable-Welded {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/Reversable/Reversable-Welded.jpg") center/cover no-repeat;
+}
+
+.image-Reversable-Welded-2 {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/Reversable/Reversable-Welded-2.jpg") center/cover no-repeat;
+}
+
+/*for export*/
+.image-Export-One-time-Use-1 {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/Export/Export-One-time-Use-1.jpg") center/cover no-repeat;
+}
+
+/*for nested*/
+.image-Nestable-Pallets-1 {
+  width: 285px;
+  height: 313px;
+  background: url("../images/pallets/Nested/Nestable-Pallets-1.jpg") center/cover no-repeat;
+}
+
+/*for popular brands*/
+.popular-brands {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.popular-brands h2 {
+  color: #f5a623;
+
+}
+
+.brands-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.brands-container {
+  display: flex;
+  animation: slide 20s linear infinite;
+}
+
+.test {
+  animation: 1s moveindex linear;
+}
+
+.brand-logo {
+  margin: 0 20px;
+  width: 200px;
+  /* adjust width as needed */
+}
+
+.brand-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 5px;
+}
+
+.dot.active {
+  background-color: #000;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.list-discontinued svg {
+  margin-right: 7px;
+}
+
+.discontinued-h2 {
+  color: #f5a623;
+}
+
+.list-discontinued {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.industry-fuel {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+/*For logos*/
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-90%);
+  }
+}
+
+@keyframes move {
+  from {
+    transform: translateY(50%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes moveindex {
+  from {
+    transform: translateX(50%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 10px;
+}
+
+.test {
+  animation: 1s move linear;
+}
+
+.move-index {
+  animation: 1s moveindex linear;
+}
+
+/*Thumbnail styling */
+
+
+/* Modal background */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+/* Wrapper for image and close button */
+.modal-content-wrapper {
+  position: relative;
+  animation: zoomIn 0.4s ease;
+}
+
+/* Image inside modal */
+.modal-content {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 0px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+/* Close button */
+.close,
+.closeBtnAssembled,
+.closeWilded,
+.closeR,
+.close3RunnerWilded,
+.close3RunnerInjection,
+.close3RunnerOneTime,
+.close3RunnerAssemled,
+.closeExportOnetimeUse1,
+.closeNestablePallets1,
+.closeReversablewelded2,
+.closeReversablewelded,
+.closeReversableonetimeinjection2,
+.closeReversableonetime,
+.close9Runnerlegs {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: white;
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.close:hover,
+.closeBtnAssembled:hover,
+.closeWilded:hover,
+.closeR:hover,
+.close3RunnerWilded:hover,
+.close3RunnerInjection:hover,
+.close3RunnerOneTime:hover,
+.close3RunnerAssemled:hover,
+.closeExportOnetimeUse1:hover,
+.closeNestablePallets1:hover,
+.closeReversablewelded2:hover,
+.closeReversablewelded:hover,
+.closeReversableonetimeinjection2:hover,
+.closeReversableonetime:hover,
+.close9Runnerlegs:hover {
+  background: crimson;
+  color: white;
+}
+
+/* Caption */
+#caption {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+/* Zoom animation */
+@keyframes zoomIn {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/*preeview images*/
+.image-One-time-Injection-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/6-runners/One-time-Injection-graph.jpg") center/cover no-repeat;
+}
+
+.image-Reversable-one-time-injection-2-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/reversable/Reversable-One-time-injection-graph-2.jpg") center/cover no-repeat;
+}
+
+.image-Reversable-one-time-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/reversable/Reversable-One-time-injection-graph-2.jpg") center/cover no-repeat;
+}
+
+.clickable-img,
+.clickable-img-assembled,
+.clickable-img-Rackable-1,
+.clickable-img-3-runners-assembled,
+.clickable-img-3-runners-one-time,
+.clickable-img-3-runners-injection,
+.clickable-img-3-runners-welded,
+.clickable-img-9-runners,
+.clickable-img-9-runners-legs,
+.clickable-Reversable-one-time,
+.clickable-Reversable-one-time-injection-2,
+.clickable-Reversable-welded,
+.clickable-Reversable-welded2,
+.clickable-Export-One-time-Use-1,
+.clickable-Nestable-Pallets-1,
+.clickable-img-welded,
+.clickable-img-Recktable-1 {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.clickable-Nestable-Pallets-1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-Export-One-time-Use-1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-Reversable-welded2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-Reversable-welded:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-img-welded:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-Reversable-one-time-injection-2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-Reversable-one-time:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-img-9-runners:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-img-9-runners-legs:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-img-3-runners-assembled:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-img-3-runners-one-time:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-img-3-runners-injection:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-img-3-runners-welded:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.Nestable-Pallets-1-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/nested/Nestable-Pallets-1-graph.jpg") center/cover no-repeat;
+}
+
+.Reversable-welded2-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/reversable/Reversable-Welded-2-graph.jpg") center/cover no-repeat;
+}
+
+.image-Rackable-1-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/6-runners/Rackable-1-2.jpg") center/cover no-repeat;
+}
+
+.image-Assembled-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/6-runners/Assembled-graph.jpg") center/cover no-repeat;
+}
+
+.image-Reversable-one-time-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/reversable/Reversable-One-time-injection-graph.jpg") center/cover no-repeat;
+}
+
+.image-welded-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/6-runners/Welded-graph.jpg") center/cover no-repeat;
+}
+
+.Export-One-time-Use-1-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/Export/Export-One-time-Use-1-graph.jpg") center/cover no-repeat;
+}
+
+.image-3-runner-assembled-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/3-runners/3-Runners-Assembled-graph.jpg") center/cover no-repeat;
+}
+
+.image-3-runner-one-time-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/3-runners/3-Runners-One-Time-Injection-graph.jpg") center/cover no-repeat;
+}
+
+.image-Reversable-Welded-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/reversable/Reversable-Welded-graph.jpg") center/cover no-repeat;
+}
+
+.image-3-runner-injection-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/3-runners/3-Runners-One-Time-Injection-graph.jpg") center/cover no-repeat;
+}
+
+.image-9-runner-legs-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/9-runners/9-legs-one-time-injection-graph.jpg") center/cover no-repeat;
+}
+
+.image-3-runner-welded-preview {
+  width: 1150px;
+  height: 500px;
+  background: url("../images/Pallets-information/3-runners/3-Runners-Welded-graph.jpg") center/cover no-repeat;
+}
+
+@media (max-width: 992px) {
+
+  .close,
+  .closeBtnAssembled,
+  .closeWilded,
+  .closeR,
+  .close3RunnerWilded,
+  .close3RunnerInjection,
+  .close3RunnerOneTime,
+  .close3RunnerAssemled,
+  .closeExportOnetimeUse1,
+  .closeNestablePallets1,
+  .closeReversablewelded2,
+  .closeReversablewelded,
+  .closeReversableonetimeinjection2,
+  .closeReversableonetime,
+  .close9Runnerlegs {
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .image-Reversable-one-time-injection-2-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/reversable/Reversable-One-time-injection-graph-2.jpg") center/cover no-repeat;
+  }
+
+  .image-Rackable-1-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/6-runners/Rackable-1-2.jpg") center/cover no-repeat;
+  }
+
+  .image-Reversable-one-time-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/reversable/Reversable-One-time-injection-graph-2.jpg") center/cover no-repeat;
+  }
+
+  .image-One-time-Injection-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/6-runners/One-time-Injection-graph.jpg") center/cover no-repeat;
+  }
+
+  .image-Assembled-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/6-runners/Assembled-graph.jpg") center/cover no-repeat;
+  }
+
+  .Reversable-welded2-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/reversable/Reversable-Welded-2-graph.jpg") center/cover no-repeat;
+  }
+
+  .image-welded-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/6-runners/Welded-graph.jpg") center/cover no-repeat;
+  }
+
+  .Nestable-Pallets-1-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/nested/Nestable-Pallets-1-graph.jpg") center/cover no-repeat;
+  }
+
+  .image-3-runner-assembled-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/3-runners/3-Runners-Assembled-graph.jpg") center/cover no-repeat;
+  }
+
+  .image-3-runner-one-time-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/3-runners/3-Runners-One-Time-Injection-graph.jpg") center/cover no-repeat;
+  }
+
+  .image-9-runner-legs-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/9-runners/9-legs-one-time-injection-graph.jpg") center/cover no-repeat;
+  }
+
+  .image-Reversable-Welded-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/reversable/Reversable-Welded-graph.jpg") center/cover no-repeat;
+  }
+
+  .image-3-runner-injection-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/3-runners/3-Runners-One-Time-Injection-graph.jpg") center/cover no-repeat;
+  }
+
+  .image-3-runner-welded-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/3-runners/3-Runners-Welded-graph.jpg") center/cover no-repeat;
+  }
+
+  .Export-One-time-Use-1-preview {
+    width: 430px;
+    height: 190px;
+    right: -13px;
+    background: url("../images/Pallets-information/Export/Export-One-time-Use-1-graph.jpg") center/cover no-repeat;
+  }
+}
+
+.clickable-img-Recktable-1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.clickable-img-assembled:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.product-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  filter: brightness(70%);
+  transition: filter 0.3s ease;
+}
+
+.product-card:hover img {
+  filter: brightness(50%);
+}
+
+.product-title {
+  position: absolute;
+  bottom: 65px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.product-title-1 {
+  position: absolute;
+  bottom: 76px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.Bently-Nevada-Pressure-Sensors {
+  width: 270px;
+  height: 250px;
+  background: url("../images/products/vibration-conditioning/Bently-Nevada-Pressure-Sensors.png") center/cover no-repeat;
+}
+
+.Bently-Nevada-Proximity {
+  width: 320px;
+  height: 320px;
+  background: url("../images/products/vibration-conditioning/Bently-Nevada-Proximity-Probes-Sensors-Transducer-Systems.png") center/cover no-repeat;
+}
+
+.Bently-Nevada-3500-Machinery-Protection-Systems {
+  width: 340px;
+  height: 340px;
+  background: url("../images/products/vibration-conditioning/3500-Machinery-Protection-Systems.png") center/cover no-repeat;
+}
+
+.Magnetrol-Echotel-355 {
+  width: 190px;
+  height:280px;
+  background: url("../images/products/level-control/echotel_355.png") center/cover no-repeat;
+}
+
+.Magnetrol-Models-T20-T21-top-mounting-single-stage-dual-stage-float-switches {
+  width: 340px;
+  height: 340px;
+  background: url("../images/products/level-control/Model-T20.png") center/cover no-repeat;
+}
+
+.Magnetrol-Eclipse-Model-700-Transmitter {
+  width: 340px;
+  height: 340px;
+  background: url("../images/products/level-control/The-Eclipse-Model-700-Transmitter.png") center/cover no-repeat;
+}
+
+.Magnetrol-Echotel-Model-910 {
+  width: 150px;
+  height: 250px;
+  background: url("../images/products/level-control/echotel-910-quality.png") center/cover no-repeat;
+}
+
+.BETA-EXPLOSION-PROOF-HOUSING-TEMPERATURE-SWITCH {
+  width: 310px;
+  height: 310px;
+  background: url("../images/products/differential/beta-explotion-proof-housing.jpg") center/cover no-repeat;
+}
+
+.BETA-EXPLOSION-PROOF-HOUSING-PRESSURE-DIFFERENTAL-PRESSURE-AND-VACUUM-SWITCH {
+  width: 310px;
+  height: 340px;
+  background: url("../images/products/differential/vacuum-switch.jpg") center/cover no-repeat;
+}
+
+.BETA-WEATHER-PROOF-HOUSING-PRESSURE-DIFFERENTAL-PRESSURE-AND-VACUUM-SWITCH {
+  width: 340px;
+  height: 340px;
+  background: url("../images/products/differential/differential-Pressure-Sensors.jpg") center/cover no-repeat;
+
+}
+
+.BETA-WEATHER-PROOF-HOUSING-TEMPERATURE-SWITCH {
+  width: 300px;
+  height: 300px;
+  background: url("../images/products/differential/beta-weather-proof-housing-temperature-switch.jpg") center/cover no-repeat;
+}
+
+.Smith-Meter-AccuLoad-IV {
+  width: 300px;
+  height: 180px;
+  background: url("../images/products/Guidant/QT_Guidant.jpg") center/cover no-repeat;
+}
+
+.Smith-Meter-Turbine-Meter {
+  width: 300px;
+  height: 280px;
+  background: url("../images/products/Guidant/SmithMeter-Multiviscosity-Turbine-Meter.jpg") center/cover no-repeat;
+}
+
+.Smith-Meter-Prime4-PD-Meter {
+  width: 240px;
+  height: 320px;
+  background: url("../images/products/Guidant/Prime4.jpg") center/cover no-repeat;
+}
+.FW-4610-4620-800x800{
+  width: 300px;
+  height: 380px;
+  background: url("../images/O-Ring-Pusher-img/FW-4610-4620-800x800.png") center/cover no-repeat;
+}
+
+.FW-5610{
+  width: 300px;
+  height: 380px;
+  background: url("../images/O-Ring-Pusher-img/FW-5610-800x800.png") center/cover no-repeat;
+}
+
+.FW-4610-FW-4620{
+  width: 300px;
+  height: 380px;
+  background: url("../images/O-Ring-Pusher-img/FW-CARTEX-SN-DN.png") center/cover no-repeat;
+}
+
+.FW-H75F{
+  width: 300px;
+  height: 380px;
+  background: url("../images/BOILER-FEED-PUMP-SEAL-img/Type-FW-H75F-800x800.png") center/cover no-repeat;
+}
+
+.FW-SHPV-Cartridge-Mechanical-Seal-800x800{
+  width: 300px;
+  height: 380px;
+  background: url("../images/BOILER-FEED-PUMP-SEAL-img/FW-SHPV-Cartridge-Mechanical-Seal-800x800.png") center/cover no-repeat;
+}
+
+.Smith-Meter-Inline-Ultrasonic-Flow-Meters-for-Gas-Liquids {
+  width: 340px;
+  height: 280px;
+  background: url("../images/products/Guidant/UltrasonicFM_Guidant.jpg") center/cover no-repeat;
+}
+
+.Sening-Tank-Truck-Package {
+  width: 355px;
+  height: 270px;
+  background: url("../images/products/Guidant/Sening-TankTruck-multiFlow-GMVT805.jpg") center/cover no-repeat;
+}
